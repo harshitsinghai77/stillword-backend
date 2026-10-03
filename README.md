@@ -1,6 +1,8 @@
 # Stillword — Backend
 
-This is the backend for [Stillword](https://github.com/harshitsinghai77/stillword), a minimal daily writing app. It is a single AWS Lambda function written in Python, exposed via a Lambda Function URL, with no traditional server or framework involved.
+This is the backend for [Stillword](https://stillword-app.netlify.app/), a minimal daily writing app. It is a single AWS Lambda function written in Python, exposed via a Lambda Function URL, with no traditional server or framework involved.
+
+**[→ Live app at stillword-app.netlify.app](https://stillword-app.netlify.app/)**
 
 All user auth, entry metadata, and cloud sync for the frontend are handled here. The frontend is a separate repository and calls this backend directly from the browser.
 
